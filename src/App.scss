@@ -1,0 +1,9 @@
+body {
+  background: url('./assets/images/background-pattern.png');
+}
+
+.nav-item {
+  :focus {
+    outline: none;
+  }
+}
