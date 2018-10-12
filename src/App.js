@@ -106,7 +106,9 @@ class App extends Component {
                 <hr />
                 <h4 className="mb-0">Bootcamp Projects</h4>
                 <div className="row">
-                  <ProjectCard image={city} name="NYT React App" />
+                  <ProjectCard image={city} name="Handy Helper" />
+                  <ProjectCard image={city} name="Plaid App" />
+                  <ProjectCard image={city} name="D&D Toolset" />
                 </div>
                 <hr />
                 <h4 className="mb-0">Bootcamp Homework</h4>
