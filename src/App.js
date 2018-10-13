@@ -23,13 +23,17 @@ import dnd from './assets/images/dnd.gif';
 import darkSouls from './assets/images/darkSouls.gif';
 import library from './assets/images/library.gif';
 import pokemon from './assets/images/pokemon.gif';
+import terraria from './assets/images/terraria.gif';
+import money from './assets/images/money.gif';
+import dnd2 from './assets/images/dnd2.gif';
+import shovel from './assets/images/shovel.gif';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="bg-dark shadow">
-          <div className="container mb-3">
+          <div className="container mb-4">
             <div className="row">
               <div className="col">
                 <Navbar dark className="px-1">
@@ -53,7 +57,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="container mb-3">
+        <div className="container mb-4 ">
           <div className="row">
             <div className="col">
               <div className="border shadow bg-light rounded p-3">
@@ -70,7 +74,7 @@ class App extends Component {
                   <div className="col">
                     <img src={picMe} alt="" style={{ width: '363px' }} className="border rounded float-left mr-3 mb-2 d-none d-md-block" />
                     <p>
-                      <h5>Hello!</h5>
+                      <div style={{ fontSize: '1.2rem' }}>Hello!</div>
                       <br />
                       I am a full stack developer who really enjoys writing code.
                       <br />
@@ -86,7 +90,7 @@ class App extends Component {
                       <br />
                       <br />
                       <span className="text-center w-100 d-inline-block">
-                        <h5 className="mb-3">Thanks for visiting!</h5>
+                        <div className="mb-3" style={{ fontSize: '1.2rem' }}>Thanks for visiting!</div>
                         <h4 classsName="mb-0">
                           <span role="img" aria-label="emoji">😎👍</span>
                         </h4>
@@ -98,29 +102,30 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="container mb-3">
+        <div className="container mb-5">
           <div className="row">
             <div className="col">
               <div className="border shadow bg-light rounded p-3">
                 <h2 className="mb-0">Portfolio</h2>
-                <hr />
-                <h4 className="mb-0">Bootcamp Projects</h4>
+                <hr className="mb-5" />
+                <h4 className="mb-0">Group Projects</h4>
                 <div className="row">
-                  <ProjectCard image={city} name="Handy Helper" />
-                  <ProjectCard image={city} name="Plaid App" />
-                  <ProjectCard image={city} name="D&D Toolset" />
+                  <ProjectCard image={terraria} name="Handy Helper" link="https://gentle-reaches-45549.herokuapp.com/" />
+                  <ProjectCard image={money} name="Plaid App" link="https://boiling-citadel-14988.herokuapp.com/" />
+                  <ProjectCard image={shovel} name="D&D Toolset" link="https://aaronsy1.github.io/firstGroupProject/" />
                 </div>
-                <hr />
-                <h4 className="mb-0">Bootcamp Homework</h4>
+                <hr className="mb-5" />
+                <h4 className="mb-0">Bootcamp Apps</h4>
                 <div className="row">
-                  <ProjectCard image={city} name="NYT React App" />
-                  <ProjectCard image={lotr} name="Clicky Game" />
-                  <ProjectCard image={burger} name="Eat Da Burger" />
-                  <ProjectCard image={hangman} name="Hangman Adventure!" />
-                  <ProjectCard image={dnd} name="D&D Tool" />
-                  <ProjectCard image={darkSouls} name="Giphy Tool" />
-                  <ProjectCard image={library} name="Trivia Game" />
-                  <ProjectCard image={pokemon} name="Pokemon Picker" />
+                  <ProjectCard image={city} name="NYT React App" link="https://ancient-shore-12375.herokuapp.com/" />
+                  <ProjectCard image={lotr} name="Clicky Game" link="https://blakelmason.github.io/react-clicky-game/" />
+                  <ProjectCard image={dnd2} name="Web Scraper" link="https://intense-mesa-35004.herokuapp.com/" />
+                  <ProjectCard image={burger} name="Eat Da Burger" link="https://morning-scrubland-74719.herokuapp.com/" />
+                  <ProjectCard image={hangman} name="Hangman Adventure!" link="https://blakelmason.github.io/projects/hangman-adventure/index.html" />
+                  <ProjectCard image={dnd} name="D&D Tool" link="https://aaronsy1.github.io/firstGroupProject/spells.html" />
+                  <ProjectCard image={darkSouls} name="Giphy Tool" link="https://blakelmason.github.io/projects/giphy-tool/index.html" />
+                  <ProjectCard image={library} name="Trivia Game" link="https://blakelmason.github.io/projects/trivia-game/index.html" />
+                  <ProjectCard image={pokemon} name="Pokemon Picker" link="https://immense-temple-68040.herokuapp.com/" />
                 </div>
               </div>
             </div>
