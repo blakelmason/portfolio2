@@ -1,9 +1,9 @@
 {
-  "main.css": "/portfolio2/static/css/main.7c08808f.chunk.css",
-  "main.js": "/portfolio2/static/js/main.747a038c.chunk.js",
-  "main.js.map": "/portfolio2/static/js/main.747a038c.chunk.js.map",
-  "static/js/1.70376f3b.chunk.js": "/portfolio2/static/js/1.70376f3b.chunk.js",
-  "static/js/1.70376f3b.chunk.js.map": "/portfolio2/static/js/1.70376f3b.chunk.js.map",
+  "main.css": "/portfolio2/static/css/main.645e07b3.chunk.css",
+  "main.js": "/portfolio2/static/js/main.2f3ff809.chunk.js",
+  "main.js.map": "/portfolio2/static/js/main.2f3ff809.chunk.js.map",
+  "static/js/1.67102f26.chunk.js": "/portfolio2/static/js/1.67102f26.chunk.js",
+  "static/js/1.67102f26.chunk.js.map": "/portfolio2/static/js/1.67102f26.chunk.js.map",
   "runtime~main.js": "/portfolio2/static/js/runtime~main.099cc4b1.js",
   "runtime~main.js.map": "/portfolio2/static/js/runtime~main.099cc4b1.js.map",
   "static/media/shovel.gif": "/portfolio2/static/media/shovel.597fbe52.gif",
@@ -20,9 +20,10 @@
   "static/media/money.gif": "/portfolio2/static/media/money.25e58818.gif",
   "static/media/dnd2.gif": "/portfolio2/static/media/dnd2.ddacc8d0.gif",
   "static/media/Resume.pdf": "/portfolio2/static/media/Resume.ada9ac6f.pdf",
+  "static/media/training.gif": "/portfolio2/static/media/training.b0027f0a.gif",
   "static/media/App.scss": "/portfolio2/static/media/background-pattern.b8c9b62f.png",
-  "static/css/main.7c08808f.chunk.css.map": "/portfolio2/static/css/main.7c08808f.chunk.css.map",
+  "static/css/main.645e07b3.chunk.css.map": "/portfolio2/static/css/main.645e07b3.chunk.css.map",
   "index.html": "/portfolio2/index.html",
-  "precache-manifest.06f5d28e2da269fb2cca97ff30cd0e84.js": "/portfolio2/precache-manifest.06f5d28e2da269fb2cca97ff30cd0e84.js",
+  "precache-manifest.954f61d6bf150e2bdfe70d7350ec7071.js": "/portfolio2/precache-manifest.954f61d6bf150e2bdfe70d7350ec7071.js",
   "service-worker.js": "/portfolio2/service-worker.js"
 }
