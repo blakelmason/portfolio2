@@ -27,6 +27,7 @@ import terraria from './assets/images/terraria.gif';
 import money from './assets/images/money.gif';
 import dnd2 from './assets/images/dnd2.gif';
 import shovel from './assets/images/shovel.gif';
+import training from './assets/images/training.gif';
 
 class App extends Component {
   render() {
@@ -107,6 +108,11 @@ class App extends Component {
             <div className="col">
               <div className="border shadow bg-light rounded p-3">
                 <h2 className="mb-0">Portfolio</h2>
+                <hr className="mb-5" />
+                <h4 className="mb-0">Current Project</h4>
+                <div className="row">
+                  <ProjectCard image={training} name="sullTraining" link="https://github.com/blakelmason/sullTraining" />
+                </div>
                 <hr className="mb-5" />
                 <h4 className="mb-0">Group Projects</h4>
                 <div className="row">
