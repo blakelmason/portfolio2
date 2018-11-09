@@ -86,7 +86,7 @@ class App extends Component {
                       Learning new technologies and deepening my understanding of programming languages is something I work on every day, and I enjoy finding elegant and simple solutions for complicated problems in the constantly shifting world of technology. To me there is no better feeling than successfully building software that is effective and enjoyable. I also work hard to write code that is modern, clean, and modular, and I always welcome learning from others on how to improve my code.
                       <br />
                       <br />
-                      The following are some of the technologies, languages, frameworks, etc. that I am familiar with: HTML, CSS, Sass, Javascript, JQuery, Bootstrap 4, Git, Node.js, Express.js, Moment.js, Cheerio.js, Handlebars.js, SQL, Sequelize, MongoDB, Mongoose, React, React-Router, Reactstrap, and Heroku. Check out my projects below for some working examples!
+                      The following are some of the technologies, languages, frameworks, etc. that I am familiar with: HTML, CSS, Sass, Javascript, JQuery, Bootstrap 4, Git, Node.js, Express.js, Moment.js, Cheerio.js, Handlebars.js, SQL, Sequelize, MongoDB, Mongoose, React, React-Router, Reactstrap, Redux, and Heroku. Check out my projects below for some working examples!
                       <br />
                       <br />
                       <br />
