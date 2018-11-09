@@ -1,1 +1,0 @@
-{"version":3,"sources":["/Users/blake/Desktop/portfolio2/src/App.scss"],"names":[],"mappings":"AAAA,KACE,wEACD,CAAA,AAED,iBAEI,YAAa,CACd","file":"main.645e07b3.chunk.css","sourcesContent":["body {\n  background: url('./assets/images/background-pattern.png');\n}\n\n.nav-item {\n  :focus {\n    outline: none;\n  }\n}"]}
