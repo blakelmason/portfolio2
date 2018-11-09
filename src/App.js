@@ -38,7 +38,7 @@ class App extends Component {
             <div className="row">
               <div className="col">
                 <Navbar dark className="px-1">
-                  <NavbarBrand href="">Blake L. Mason</NavbarBrand>
+                  <NavbarBrand href="">Blake Mason</NavbarBrand>
                   <Nav className="d-flex align-items-center">
                     <NavIcon href="https://github.com/blakelmason" icon="Github" className="p-0 bg-light rounded border border-secondary">
                       <FaGithub color="#333" size="2.4rem" id="Github" style={{ padding: '2px' }} />
@@ -73,7 +73,7 @@ class App extends Component {
                 </div>
                 <div className="row">
                   <div className="col">
-                    <img src={picMe} alt="" style={{ width: '363px' }} className="border rounded float-left mr-3 mb-2 d-none d-md-block" />
+                    <img src={picMe} alt="" style={{ width: '363px' }} className="border rounded float-left mr-3 mb-1 d-none d-md-block" />
                     <p>
                       <div style={{ fontSize: '1.2rem' }}>Hello!</div>
                       <br />
@@ -86,7 +86,7 @@ class App extends Component {
                       Learning new technologies and deepening my understanding of programming languages is something I work on every day, and I enjoy finding elegant and simple solutions for complicated problems in the constantly shifting world of technology. To me there is no better feeling than successfully building software that is effective and enjoyable. I also work hard to write code that is modern, clean, and modular, and I always welcome learning from others on how to improve my code.
                       <br />
                       <br />
-                      The following are some of the technologies, languages, frameworks, etc. that I am familiar with: HTML, CSS, Sass, Javascript, JQuery, Bootstrap 4, Git, Node.js, Express.js, Moment.js, Cheerio.js, Handlebars.js, SQL, Sequelize, MongoDB, Mongoose, React, React-Router, Reactstrap, Material-UI, and Heroku. Check out my projects below for some working examples.
+                      The following are some of the technologies, languages, frameworks, etc. that I am familiar with: HTML, CSS, Sass, Javascript, JQuery, Bootstrap 4, Git, Node.js, Express.js, Moment.js, Cheerio.js, Handlebars.js, SQL, Sequelize, MongoDB, Mongoose, React, React-Router, Reactstrap, and Heroku. Check out my projects below for some working examples!
                       <br />
                       <br />
                       <br />
