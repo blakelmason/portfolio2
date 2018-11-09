@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/portfolio2/static/media/background-pattern.b8c9b62f.png"
   },
   {
-    "revision": "42268b844e96779406305dc502b23bb5",
+    "revision": "b62a95e07200a5d2f676294708a01a2c",
     "url": "/portfolio2/index.html"
   }
 ];
