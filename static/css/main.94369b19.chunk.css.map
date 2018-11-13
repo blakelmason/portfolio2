@@ -1,1 +1,0 @@
-{"version":3,"sources":["/Users/blake/Desktop/portfolio2/src/App.scss"],"names":[],"mappings":"AAAA,KACE,yEAAyD,AACzD,6BAAiC,CAClC,AAED,iBAEI,YAAa,CACd","file":"main.94369b19.chunk.css","sourcesContent":["body {\n  background: url('./assets/images/background-pattern.png');\n  font-family: 'Ubuntu', sans-serif;\n}\n\n.nav-item {\n  :focus {\n    outline: none;\n  }\n}"]}
