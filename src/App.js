@@ -74,29 +74,27 @@ class App extends Component {
                 <div className="row">
                   <div className="col">
                     <img src={picMe} alt="" style={{ width: '363px' }} className="border rounded float-left mr-3 mb-1 d-none d-md-block" />
-                    <p>
-                      <div style={{ fontSize: '1.2rem' }}>Hello!</div>
+                    <div style={{ fontSize: '1.2rem' }}>Hello!</div>
+                    <br />
+                    I am a full stack developer who really enjoys writing code.
                       <br />
-                      I am a full stack developer who really enjoys writing code.
+                    <br />
+                    My main skills are with Javascript tools and frameworks, with a focus on the MERN stack. I also like to keep myself up-to-date with the latest technologies and languages while increasing my understanding of general computer and software principles.
                       <br />
+                    <br />
+                    Learning new technologies and deepening my understanding of programming languages is something I work on every day, and I enjoy finding elegant and simple solutions for complicated problems in the constantly shifting world of technology. To me there is no better feeling than successfully building software that is effective and enjoyable. I also work hard to write code that is modern, clean, and modular, and I always welcome learning from others on how to improve my code.
                       <br />
-                      My main skills are with Javascript tools and frameworks, with a focus on the MERN stack. I also like to keep myself up-to-date with the latest technologies and languages while increasing my understanding of general computer and software principles.
+                    <br />
+                    The following are some of the technologies, languages, frameworks, etc. that I am familiar with: HTML, CSS, Sass, Javascript, JQuery, Bootstrap 4, Git, Node.js, Express.js, Moment.js, Cheerio.js, Handlebars.js, SQL, Sequelize, MongoDB, Mongoose, React, React-Router, Reactstrap, Redux, and Heroku. Check out my projects below for some working examples!
                       <br />
-                      <br />
-                      Learning new technologies and deepening my understanding of programming languages is something I work on every day, and I enjoy finding elegant and simple solutions for complicated problems in the constantly shifting world of technology. To me there is no better feeling than successfully building software that is effective and enjoyable. I also work hard to write code that is modern, clean, and modular, and I always welcome learning from others on how to improve my code.
-                      <br />
-                      <br />
-                      The following are some of the technologies, languages, frameworks, etc. that I am familiar with: HTML, CSS, Sass, Javascript, JQuery, Bootstrap 4, Git, Node.js, Express.js, Moment.js, Cheerio.js, Handlebars.js, SQL, Sequelize, MongoDB, Mongoose, React, React-Router, Reactstrap, Redux, and Heroku. Check out my projects below for some working examples!
-                      <br />
-                      <br />
-                      <br />
-                      <span className="text-center w-100 d-inline-block">
-                        <div className="mb-3" style={{ fontSize: '1.2rem' }}>Thanks for visiting!</div>
-                        <h4 classsName="mb-0">
-                          <span role="img" aria-label="emoji">😎👍</span>
-                        </h4>
-                      </span>
-                    </p>
+                    <br />
+                    <br />
+                    <div className="text-center w-100 d-inline-block">
+                      <div className="mb-3" style={{ fontSize: '1.2rem' }}>Thanks for visiting!</div>
+                      <h4>
+                        <span role="img" aria-label="emoji">😎👍</span>
+                      </h4>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -111,27 +109,27 @@ class App extends Component {
                 <hr className="mb-5" />
                 <h4 className="mb-0">Current Project</h4>
                 <div className="row">
-                  <ProjectCard image={training} name="sullTraining" link="https://github.com/blakelmason/sullTraining" />
+                  <ProjectCard image={training} name="sullTraining" link="https://github.com/blakelmason/sullTraining" info="Record and track workouts for weight lifting." />
                 </div>
                 <hr className="mb-5" />
                 <h4 className="mb-0">Group Projects</h4>
                 <div className="row">
-                  <ProjectCard image={terraria} name="Handy Helper" link="https://gentle-reaches-45549.herokuapp.com/" />
-                  <ProjectCard image={money} name="Plaid App" link="https://boiling-citadel-14988.herokuapp.com/" />
-                  <ProjectCard image={shovel} name="D&D Toolset" link="https://aaronsy1.github.io/firstGroupProject/" />
+                  <ProjectCard image={terraria} name="Handy Helper" link="https://gentle-reaches-45549.herokuapp.com/" info="A community driven app for people to find help with home projects." />
+                  <ProjectCard image={money} name="Plaid App" link="https://boiling-citadel-14988.herokuapp.com/" info="Connect to the Plaid API: a financial API to read bank data." />
+                  <ProjectCard image={shovel} name="D&D Toolset" link="https://aaronsy1.github.io/firstGroupProject/" info="D&D tools to help make a DM's life easier." />
                 </div>
                 <hr className="mb-5" />
                 <h4 className="mb-0">Bootcamp Apps</h4>
                 <div className="row">
-                  <ProjectCard image={city} name="NYT React App" link="https://ancient-shore-12375.herokuapp.com/" />
-                  <ProjectCard image={lotr} name="Clicky Game" link="https://blakelmason.github.io/react-clicky-game/" />
-                  <ProjectCard image={dnd2} name="Web Scraper" link="https://intense-mesa-35004.herokuapp.com/" />
-                  <ProjectCard image={burger} name="Eat Da Burger" link="https://morning-scrubland-74719.herokuapp.com/" />
-                  <ProjectCard image={hangman} name="Hangman Adventure!" link="https://blakelmason.github.io/projects/hangman-adventure/index.html" />
-                  <ProjectCard image={dnd} name="D&D Tool" link="https://aaronsy1.github.io/firstGroupProject/spells.html" />
-                  <ProjectCard image={darkSouls} name="Giphy Tool" link="https://blakelmason.github.io/projects/giphy-tool/index.html" />
-                  <ProjectCard image={library} name="Trivia Game" link="https://blakelmason.github.io/projects/trivia-game/index.html" />
-                  <ProjectCard image={pokemon} name="Pokemon Picker" link="https://immense-temple-68040.herokuapp.com/" />
+                  <ProjectCard image={city} name="NYT React App" link="https://ancient-shore-12375.herokuapp.com/" info="Search and save historical NYT articles." />
+                  <ProjectCard image={lotr} name="Clicky Game" link="https://blakelmason.github.io/react-clicky-game/" info="A memory game using React." />
+                  <ProjectCard image={dnd2} name="Web Scraper" link="https://intense-mesa-35004.herokuapp.com/" info="A web scraper for articles from D&D Beyond." />
+                  <ProjectCard image={burger} name="Eat Da Burger" link="https://morning-scrubland-74719.herokuapp.com/" info="Create, read, update, and delete custom burgers." />
+                  <ProjectCard image={hangman} name="Hangman Adventure!" link="https://blakelmason.github.io/projects/hangman-adventure/index.html" info="Fight your way through an epic hangman adventure." />
+                  <ProjectCard image={dnd} name="D&D Tool" link="https://aaronsy1.github.io/firstGroupProject/spells.html" info="Spell reference and dice rolling tool." />
+                  <ProjectCard image={darkSouls} name="Giphy Tool" link="https://blakelmason.github.io/projects/giphy-tool/index.html" info="Find a GIF using the Giphy API." />
+                  <ProjectCard image={library} name="Trivia Game" link="https://blakelmason.github.io/projects/trivia-game/index.html" info="A simple trivia game." />
+                  <ProjectCard image={pokemon} name="Pokemon Picker" link="https://immense-temple-68040.herokuapp.com/" info="Receive a starter Pokemon after filling out a survey." />
                 </div>
               </div>
             </div>

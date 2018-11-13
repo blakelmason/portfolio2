@@ -8,3 +8,11 @@ body {
     outline: none;
   }
 }
+
+.nav-link {
+  color: inherit;
+  padding: 0px;
+  &:hover {
+    color: inherit;
+  }
+}
