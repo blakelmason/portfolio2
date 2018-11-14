@@ -24,3 +24,10 @@
 .image-container:hover .info {
   opacity: 1;
 }
+
+.btn { 
+  border: 1px solid #dee2e6;
+  a:link, a:visited, a:hover, a:active {
+     border:1px solid #343a40; 
+    }
+}

@@ -8,7 +8,7 @@ import {
   ButtonGroup,
   Button,
 } from 'reactstrap';
-import './ProjectCard.css';
+import './ProjectCard.scss';
 
 const ProjectCard = (props) => {
   return (
@@ -21,13 +21,13 @@ const ProjectCard = (props) => {
           </div>
         </div>
         <CardBody className="text-center px-0">
-          <CardTitle className="mb-3">{props.name}</CardTitle>
+          <CardTitle className="mb-4">{props.name}</CardTitle>
           <div className="mx-3">
             <ButtonGroup className="w-100 rounded shadow">
-              <Button outline color="dark" className="w-50">
+              <Button outline className="w-50" size="sm" color="dark">
                 <NavLink target="_blank" href={props.link}>App</NavLink>
               </Button>
-              <Button outline color="dark" className="w-50 border-left-0" style={{ marginLeft: '0px' }}>
+              <Button outline className="w-50 border-left-0" style={{ marginLeft: '0px' }} size="sm" color="dark">
                 <NavLink target="_blank" href={props.github}>Github</NavLink>
               </Button>
             </ButtonGroup>
