@@ -21,7 +21,7 @@ const ProjectCard = (props) => {
           </div>
         </div>
         <CardBody className="text-center px-0">
-          <CardTitle className="mb-4">{props.name}</CardTitle>
+          <CardTitle style={{ marginBottom: '16px' }}>{props.name}</CardTitle>
           <div className="mx-3">
             <ButtonGroup className="w-100 rounded shadow">
               <Button outline className="w-50" size="sm" color="dark">
