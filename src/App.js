@@ -109,27 +109,103 @@ class App extends Component {
                 <hr className="mb-5" />
                 <h4 className="mb-0">Current Project</h4>
                 <div className="row">
-                  <ProjectCard image={training} name="sullTraining" link="https://github.com/blakelmason/sullTraining" info="Record and track workouts for weight lifting." />
+                  <ProjectCard
+                    image={training}
+                    name="sullTraining"
+                    link="https://powerful-savannah-13856.herokuapp.com/"
+                    info="Record and track workouts for weight lifting."
+                    github="https://github.com/blakelmason/sullTraining"
+                  />
                 </div>
                 <hr className="mb-5" />
                 <h4 className="mb-0">Group Projects</h4>
                 <div className="row">
-                  <ProjectCard image={terraria} name="Handy Helper" link="https://gentle-reaches-45549.herokuapp.com/" info="A community driven app for people to find help with home projects." />
-                  <ProjectCard image={money} name="Plaid App" link="https://boiling-citadel-14988.herokuapp.com/" info="Connect to the Plaid API: a financial API to read bank data." />
-                  <ProjectCard image={shovel} name="D&D Toolset" link="https://aaronsy1.github.io/firstGroupProject/" info="D&D tools to help make a DM's life easier." />
+                  <ProjectCard
+                    image={terraria}
+                    name="Handy Helper"
+                    link="https://gentle-reaches-45549.herokuapp.com/"
+                    info="A community driven app for people to find help with home projects."
+                    github="https://github.com/tghazal/project-3"
+                  />
+                  <ProjectCard
+                    image={money}
+                    name="Plaid App"
+                    link="https://boiling-citadel-14988.herokuapp.com/"
+                    info="Connect to the Plaid API: a financial API to read bank data."
+                  />
+                  <ProjectCard image={shovel}
+                    name="D&D Toolset"
+                    link="https://aaronsy1.github.io/firstGroupProject/"
+                    info="D&D tools to help make a DM's life easier."
+                    github="https://github.com/Reptile-Chuckers/project-2"
+                  />
                 </div>
                 <hr className="mb-5" />
                 <h4 className="mb-0">Bootcamp Apps</h4>
                 <div className="row">
-                  <ProjectCard image={city} name="NYT React App" link="https://ancient-shore-12375.herokuapp.com/" info="Search and save historical NYT articles." />
-                  <ProjectCard image={lotr} name="Clicky Game" link="https://blakelmason.github.io/react-clicky-game/" info="A memory game using React." />
-                  <ProjectCard image={dnd2} name="Web Scraper" link="https://intense-mesa-35004.herokuapp.com/" info="A web scraper for articles from D&D Beyond." />
-                  <ProjectCard image={burger} name="Eat Da Burger" link="https://morning-scrubland-74719.herokuapp.com/" info="Create, read, update, and delete custom burgers." />
-                  <ProjectCard image={hangman} name="Hangman Adventure!" link="https://blakelmason.github.io/projects/hangman-adventure/index.html" info="Fight your way through an epic hangman adventure." />
-                  <ProjectCard image={dnd} name="D&D Tool" link="https://aaronsy1.github.io/firstGroupProject/spells.html" info="Spell reference and dice rolling tool." />
-                  <ProjectCard image={darkSouls} name="Giphy Tool" link="https://blakelmason.github.io/projects/giphy-tool/index.html" info="Find a GIF using the Giphy API." />
-                  <ProjectCard image={library} name="Trivia Game" link="https://blakelmason.github.io/projects/trivia-game/index.html" info="A simple trivia game." />
-                  <ProjectCard image={pokemon} name="Pokemon Picker" link="https://immense-temple-68040.herokuapp.com/" info="Receive a starter Pokemon after filling out a survey." />
+                  <ProjectCard
+                    image={city}
+                    name="NYT React App"
+                    link="https://ancient-shore-12375.herokuapp.com/"
+                    info="Search and save historical NYT articles."
+                    github="https://github.com/blakelmason/nyt-react-app"
+                  />
+                  <ProjectCard
+                    image={lotr}
+                    name="Clicky Game"
+                    link="https://blakelmason.github.io/clicky-game/"
+                    info="A memory game using React."
+                    github="https://github.com/blakelmason/clicky-game"
+                  />
+                  <ProjectCard
+                    image={dnd2}
+                    name="Web Scraper"
+                    link="https://intense-mesa-35004.herokuapp.com/"
+                    info="A web scraper for articles from D&D Beyond."
+                    github="https://github.com/blakelmason/web-scraper"
+                  />
+                  <ProjectCard
+                    image={burger}
+                    name="Eat Da Burger"
+                    link="https://morning-scrubland-74719.herokuapp.com/"
+                    info="Create, read, update, and delete custom burgers."
+                    github="https://github.com/blakelmason/eat-da-burger"
+                  />
+                  <ProjectCard
+                    image={hangman}
+                    name="Hangman Adventure!"
+                    link="https://blakelmason.github.io/projects/hangman-adventure/index.html"
+                    info="Fight your way through an epic hangman adventure."
+                    github="https://github.com/blakelmason/hangman-adventure"
+                  />
+                  <ProjectCard
+                    image={dnd}
+                    name="D&D Tool"
+                    link="https://aaronsy1.github.io/firstGroupProject/spells.html"
+                    info="Spell reference and dice rolling tool."
+                    github="https://github.com/aaronsy1/firstGroupProject"
+                  />
+                  <ProjectCard
+                    image={darkSouls}
+                    name="Giphy Tool"
+                    link="https://blakelmason.github.io/projects/giphy-tool/index.html"
+                    info="Find a GIF using the Giphy API."
+                    github="https://github.com/blakelmason/giphy-tool"
+                  />
+                  <ProjectCard
+                    image={library}
+                    name="Trivia Game"
+                    link="https://blakelmason.github.io/projects/trivia-game/index.html"
+                    info="A simple trivia game."
+                    github=""
+                  />
+                  <ProjectCard
+                    image={pokemon}
+                    name="Pokemon Picker"
+                    link="https://immense-temple-68040.herokuapp.com/"
+                    info="Receive a starter Pokemon after filling out a survey."
+                    github="https://github.com/blakelmason/pokemon-picker"
+                  />
                 </div>
               </div>
             </div>

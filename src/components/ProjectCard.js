@@ -28,7 +28,7 @@ const ProjectCard = (props) => {
                 <NavLink target="_blank" href={props.link}>App</NavLink>
               </Button>
               <Button outline color="dark" className="w-50 border-left-0" style={{ marginLeft: '0px' }}>
-                <NavLink target="_blank" href={props.link}>Github</NavLink>
+                <NavLink target="_blank" href={props.github}>Github</NavLink>
               </Button>
             </ButtonGroup>
           </div>
