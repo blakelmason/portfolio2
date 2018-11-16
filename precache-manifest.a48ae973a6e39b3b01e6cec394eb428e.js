@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio2/static/media/dnd.582f1c22.gif"
   },
   {
-    "revision": "0b1da3c96460f06f8a05",
-    "url": "/portfolio2/static/css/main.a4c15e73.chunk.css"
+    "revision": "4dc4eacddbb50c3c7cb2",
+    "url": "/portfolio2/static/css/main.99881dbb.chunk.css"
   },
   {
     "revision": "965b5f6d01f18702bf55",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/portfolio2/static/media/me.8acdb5cc.jpg"
   },
   {
-    "revision": "3bf4082500741c396df4e775802b7136",
-    "url": "/portfolio2/static/media/Resume.3bf40825.pdf"
+    "revision": "4ef3b2fa360eb7cd2baae73d52e8d008",
+    "url": "/portfolio2/static/media/Resume.4ef3b2fa.pdf"
   },
   {
     "revision": "d1bf73913d03b03c43c2b8ac5bb5b515",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/portfolio2/static/media/hangman.f673dcb6.gif"
   },
   {
-    "revision": "0b1da3c96460f06f8a05",
-    "url": "/portfolio2/static/js/main.0b1da3c9.chunk.js"
+    "revision": "4dc4eacddbb50c3c7cb2",
+    "url": "/portfolio2/static/js/main.4dc4eacd.chunk.js"
   },
   {
     "revision": "41053cbe9ff73cf5598061a859b725b4",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/portfolio2/static/media/background-pattern.b8c9b62f.png"
   },
   {
-    "revision": "d0a86680485da93f0dc8fe0bcb4075db",
+    "revision": "3722530caeda174b03542b99c126aece",
     "url": "/portfolio2/index.html"
   }
 ];
